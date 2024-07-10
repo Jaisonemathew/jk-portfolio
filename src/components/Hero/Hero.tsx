@@ -1,8 +1,11 @@
 
 import './Hero.css';
+import { FaLinkedin, FaTwitter, FaInstagram, FaFacebook, FaYoutube, FaEnvelope } from 'react-icons/fa';
+
 import heroImage from '../../assets/image.png';
 const Hero = () => {
   return (
+    <>
     <div className="container">
         <div className="image">
         <img src={heroImage} alt="Description" />
@@ -21,9 +24,30 @@ assuring highest performance and innovation with mindset of 5x growth. Have a vi
         </p>
         <br></br>
     <p>"The journey of a thousand miles begins with a single innovative step." <br></br>- Joshua Kanatt</p>
+    <div className="social-media-buttons">
+    <a href="https://www.linkedin.com" target="google.com" rel="noopener noreferrer">
+      <FaLinkedin />
+    </a>
+    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+      <FaTwitter />
+    </a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+      <FaInstagram />
+    </a>
+    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+      <FaFacebook />
+    </a>
+    <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+      <FaYoutube />
+    </a>
+    <a href="mailto:your-email@example.com">
+      <FaEnvelope />
+    </a>
+  </div>
       </div>
-      
     </div>
+    
+  </>
   );
 };
 

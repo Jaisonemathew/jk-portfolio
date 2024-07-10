@@ -19,7 +19,7 @@ const Navbar = () => {
       </button>
       <div className={`navbar-right ${isOpen ? 'open' : ''}`}>
       <a href="#home">Home</a>
-      <a href="#my-journey">My Journey</a>
+      <a href="#my-journey">Journey</a>
        <a href="#skills">Skills</a>
         <a href="#testimonials">Testimonials</a>
         <a href="#education">Education</a>
