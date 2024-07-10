@@ -1,0 +1,42 @@
+/* src/ImageTextLayout.css */
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .image {
+    flex: 1;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text {
+      padding-left: 0;
+      padding-top: 20px;
+    }
+   
+  }
+  h1{
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 0.8em; /* Decrease the font size of p */
+    font-weight: 100;  /* Make the text lighter */
+  }
